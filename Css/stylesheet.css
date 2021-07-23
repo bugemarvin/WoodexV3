@@ -20,6 +20,7 @@ body{
     justify-content: center;
     flex-direction: row;
     width: 100%;
+    overflow:hidden;
 }
 /*header Styling section*/
 
@@ -29,6 +30,8 @@ header {
     width: 100%;
     overflow: hidden;
     background-color: antiquewhite;
+    flex-direction: column;
+    display: flex;
 }
 
 /*End of header Styling section*/
