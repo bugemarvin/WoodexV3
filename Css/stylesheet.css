@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: auto;
+    margin: auto;
+    overflow: hidden;
+    outline: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #777;
+}
+
+.wapper {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+/*header Styling section*/
+
+header {
+    position:absolute;
+    top:0; right:0;left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+/*End of header Styling section*/
+
+/*footer styling section*/
+footer{
+    position: absolute;
+    bottom: 0; right: 0;left: 0;
+    background-color: #0f1511;
+}
+
+.ft {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.ftop {
+    justify-content: space-around;
+    padding: 22px 0;
+    width: 80%;
+
+}
+
+.fsect {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.fcont {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.ftxt{
+    padding: 0;
+    margin: 0;
+    align-self: flex-start;
+}
+.fimage{
+    padding: 0;
+    margin: 0;
+    align-self: flex-start;
+}
+
+.txtsmall {
+    font-size: 12px;
+}
+
+.fbottom {
+    color: #807b7b;
+    align-items: center;
+    padding: 22px 0;
+    align-self: center;
+    font-size: 14px;
+    background-color: #0e100e;
+}
+
+.ficons {
+    color: #fff;
+    flex-direction: row;
+}
+/*End of footer Stying section*/
