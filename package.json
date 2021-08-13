@@ -1,0 +1,22 @@
+{
+  "name": "woodexv3",
+  "version": "1.0.0",
+  "description": "replica of woodex website",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugemarvin/WoodexV3.git"
+  },
+  "author": "Marvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugemarvin/WoodexV3/issues"
+  },
+  "homepage": "https://github.com/bugemarvin/WoodexV3#readme",
+  "devDependencies": {
+    "sass": "^1.37.5"
+  }
+}
