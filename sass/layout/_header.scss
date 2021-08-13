@@ -10,7 +10,7 @@
 
         &__logo-box{
             position: absolute;
-            left: 5rem;
+            left: $default-padding;
         }
 
         &__logo{            
@@ -18,7 +18,7 @@
 
         &__contacts-box{
             position: absolute;
-            right: 5rem;
+            right: $default-padding;
 
             &__contact-container{
                 
