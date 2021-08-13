@@ -1,0 +1,40 @@
+.header {
+    z-index: 200;
+
+    &__top{
+        background-color: $color-grey;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 20vh;
+
+        &__logo-box{
+            position: absolute;
+            left: 5rem;
+        }
+
+        &__logo{            
+        }
+
+        &__contacts-box{
+            position: absolute;
+            right: 5rem;
+
+            &__contact-container{
+                
+
+                &__icon-box{
+                    
+                }
+
+                &__text-area{
+                    
+                }
+            }
+        }
+    }
+
+    &__bottom{
+        background-color: black;
+    }
+}

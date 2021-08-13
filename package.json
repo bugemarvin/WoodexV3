@@ -4,7 +4,7 @@
   "description": "replica of woodex website",
   "main": "index.js",
   "scripts": {
-    
+    "compile:sass": "sass sass/main.scss Css/style.css -w"
   },
   "repository": {
     "type": "git",
