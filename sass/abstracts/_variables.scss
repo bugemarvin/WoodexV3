@@ -1,8 +1,22 @@
-$color-grey: rgb(160, 157, 157);
-
+//height and width section
 $grid-width: 100%;
+$default-width: 110rem;
 
+//margin and padding section
 $default-padding: 5rem;
-
 $margin-x: 6rem;
 $margin-y: 8rem;
+
+//colors section
+$color-primary: #c08c4d;
+$color-secondary-1: #e1e1e1;
+$color-secondary-2: #f6f6f6;
+$color-grey: #777;
+
+//default colors
+$color-white: #ffffff;
+$color-black: #111;
+
+//bg colors
+$bg-primary-color-1: #281e19;
+$bg-primary-color-2: #c08c4d;

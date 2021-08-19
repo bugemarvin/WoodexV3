@@ -1,8 +1,8 @@
 .row {
     width: $grid-width;
     margin: 0 auto;
-    background-color: aliceblue;
-    justify-content: flex-start;
+    /*background-color: $color-white;
+    justify-content: flex-start;*/
 
     &:not(:last-child){
         margin-bottom: $margin-y;
@@ -10,7 +10,7 @@
 
     [class^="col-"] {
         justify-self: center;
-        background-color: burlywood;
+        background-color: $bg-primary-color-2;
 
         &:not(:last-child) {
             margin-right: $margin-x;
